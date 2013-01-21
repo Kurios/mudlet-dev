@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>roomExits</class>
+ <widget class="QDialog" name="roomExits">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>747</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="4">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>General exits</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="lnw">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="nw">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the northwest here</string>
+        </property>
+        <property name="placeholderText">
+         <string>NW exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="ln">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLineEdit" name="n">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the north here</string>
+        </property>
+        <property name="placeholderText">
+         <string>N exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QPushButton" name="lne">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QLineEdit" name="ne">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the northeast here</string>
+        </property>
+        <property name="placeholderText">
+         <string>NE exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="QPushButton" name="lup">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QLineEdit" name="up">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the up here</string>
+        </property>
+        <property name="placeholderText">
+         <string>Up exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="lw">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="w">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the west here</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>W exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QPushButton" name="le">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QLineEdit" name="e">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the east here</string>
+        </property>
+        <property name="placeholderText">
+         <string>E exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="7">
+       <widget class="QPushButton" name="ldown">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="8">
+       <widget class="QLineEdit" name="down">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the down here</string>
+        </property>
+        <property name="placeholderText">
+         <string>Down exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="lsw">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="sw">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the southwest here</string>
+        </property>
+        <property name="placeholderText">
+         <string>SW exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="ls">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLineEdit" name="s">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the south here</string>
+        </property>
+        <property name="placeholderText">
+         <string>S exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QPushButton" name="lse">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="5">
+       <widget class="QLineEdit" name="se">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the southeast here</string>
+        </property>
+        <property name="placeholderText">
+         <string>SE exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7">
+       <widget class="QPushButton" name="lin">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="8">
+       <widget class="QLineEdit" name="in">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the in here</string>
+        </property>
+        <property name="placeholderText">
+         <string>In exit...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="7">
+       <widget class="QPushButton" name="lout">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>lock</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="8">
+       <widget class="QLineEdit" name="out">
+        <property name="toolTip">
+         <string>Set the number of the room that's to the out here</string>
+        </property>
+        <property name="placeholderText">
+         <string>Out exit...</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Special exits</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="ExitsTreeWidget" name="specialExits">
+        <property name="rootIsDecorated">
+         <bool>false</bool>
+        </property>
+        <property name="itemsExpandable">
+         <bool>false</bool>
+        </property>
+        <property name="columnCount">
+         <number>3</number>
+        </property>
+        <attribute name="headerStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Locked?</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Exit room ID</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Command or script (Lua scripts need to be prefixed with &quot;script:&quot;)</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="addSpecialExit">
+     <property name="text">
+      <string>add special exit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="saveButton">
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ExitsTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>exitstreewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>addSpecialExit</tabstop>
+  <tabstop>saveButton</tabstop>
+  <tabstop>pushButton_14</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>lnw</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>nw</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>36</x>
+     <y>48</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>135</x>
+     <y>45</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ln</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>n</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>216</x>
+     <y>52</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>328</x>
+     <y>48</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lne</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>ne</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>395</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>494</x>
+     <y>47</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lup</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>up</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>571</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>678</x>
+     <y>47</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lw</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>w</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>43</x>
+     <y>73</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>138</x>
+     <y>76</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>le</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>e</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>490</x>
+     <y>78</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ldown</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>down</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>570</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>663</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lsw</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sw</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>114</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>114</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ls</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>s</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>211</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>306</x>
+     <y>111</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lse</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>se</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>494</x>
+     <y>108</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lin</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>in</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>575</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>666</x>
+     <y>100</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lout</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>out</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>571</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>679</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>roomExits</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>679</x>
+     <y>456</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>298</x>
+     <y>485</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

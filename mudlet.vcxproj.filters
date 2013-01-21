@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ActionUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AliasUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\astar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ctelnet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgAboutDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgActionMainArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgAliasMainArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgColorTrigger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgComposer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgConnectionProfiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgHelpDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgIRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgKeysMainArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgNotepad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgOptionsAreaAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgOptionsAreaAlias.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgOptionsAreaScripts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgOptionsAreaTimers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgOptionsAreaTriggers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgProfilePreferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgRoomExits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgScriptsMainArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgSearchArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgSourceEditorArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgSystemMessageArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgTimersMainArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgTriggerEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgTriggerPatternEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dlgTriggersMainArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EActionGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exitstreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FontManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Host.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HostManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HostPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mudlet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScriptUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\T2DMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TAlias.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TCommandLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TEasyButtonBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TFlipButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TForkedProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\THighlighter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimerUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TLuaInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TriggerUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TRoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TSplitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TSplitterHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TTextEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TToolBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TTreeWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TTreeWidgetItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TTrigger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLexport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLimport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\luazip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_yajl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_yajl1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\examples\compattest\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\examples\compattest\session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\examples\irctest\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\examples\shared\session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\examples\ssltest\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\src\irc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\src\ircbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\src\ircsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\irc\src\ircutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ActionUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AliasUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ctelnet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgAboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgActionMainArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgAliasMainArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgColorTrigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgComposer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgConnectionProfiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgHelpDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgIRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgKeysMainArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgNotepad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgOptionsAreaAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgOptionsAreaAlias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgOptionsAreaScripts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgOptionsAreaTimers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgOptionsAreaTriggers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgProfilePreferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgRoomExits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgScriptsMainArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgSearchArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgSourceEditorArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgSystemMessageArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgTimersMainArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgTriggerEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgTriggerPatternEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgTriggersMainArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dlgTriggers_main_area.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EActionGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exitstreewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FontManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Host.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HostManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HostPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KeyUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mudlet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScriptUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\T2DMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TAlias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TAstar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TCommandLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TEasyButtonBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TFlipButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TForkedProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\THighlighter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TimerUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TLuaInterpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TMatchState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TriggerUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TRoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TSplitterHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TTextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TToolBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TTreeWidgetItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TTrigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XMLexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XMLimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\examples\compattest\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\examples\shared\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\include\irc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\include\ircbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\include\ircbuffer_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\include\ircglobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\include\ircsession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\include\ircsession_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\irc\include\ircutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\mudlet_documentation.html" />
+    <None Include="src\irc\doc\annotated.html" />
+    <None Include="src\irc\doc\classes.html" />
+    <None Include="src\irc\doc\classIrc_1_1Buffer-members.html" />
+    <None Include="src\irc\doc\classIrc_1_1Buffer.html" />
+    <None Include="src\irc\doc\classIrc_1_1Rfc-members.html" />
+    <None Include="src\irc\doc\classIrc_1_1Rfc.html" />
+    <None Include="src\irc\doc\classIrc_1_1Session-members.html" />
+    <None Include="src\irc\doc\classIrc_1_1Session.html" />
+    <None Include="src\irc\doc\classIrc_1_1Util-members.html" />
+    <None Include="src\irc\doc\classIrc_1_1Util.html" />
+    <None Include="src\irc\doc\deprecated.html" />
+    <None Include="src\irc\doc\files.html" />
+    <None Include="src\irc\doc\functions.html" />
+    <None Include="src\irc\doc\functions_0x62.html" />
+    <None Include="src\irc\doc\functions_0x63.html" />
+    <None Include="src\irc\doc\functions_0x64.html" />
+    <None Include="src\irc\doc\functions_0x65.html" />
+    <None Include="src\irc\doc\functions_0x68.html" />
+    <None Include="src\irc\doc\functions_0x69.html" />
+    <None Include="src\irc\doc\functions_0x6a.html" />
+    <None Include="src\irc\doc\functions_0x6b.html" />
+    <None Include="src\irc\doc\functions_0x6c.html" />
+    <None Include="src\irc\doc\functions_0x6d.html" />
+    <None Include="src\irc\doc\functions_0x6e.html" />
+    <None Include="src\irc\doc\functions_0x6f.html" />
+    <None Include="src\irc\doc\functions_0x70.html" />
+    <None Include="src\irc\doc\functions_0x71.html" />
+    <None Include="src\irc\doc\functions_0x72.html" />
+    <None Include="src\irc\doc\functions_0x73.html" />
+    <None Include="src\irc\doc\functions_0x74.html" />
+    <None Include="src\irc\doc\functions_0x75.html" />
+    <None Include="src\irc\doc\functions_0x76.html" />
+    <None Include="src\irc\doc\functions_0x77.html" />
+    <None Include="src\irc\doc\functions_0x7e.html" />
+    <None Include="src\irc\doc\functions_enum.html" />
+    <None Include="src\irc\doc\functions_eval.html" />
+    <None Include="src\irc\doc\functions_func.html" />
+    <None Include="src\irc\doc\globals.html" />
+    <None Include="src\irc\doc\globals_defs.html" />
+    <None Include="src\irc\doc\index.html" />
+    <None Include="src\irc\doc\ircbuffer_8h_source.html" />
+    <None Include="src\irc\doc\ircbuffer__p_8h_source.html" />
+    <None Include="src\irc\doc\ircglobal_8h.html" />
+    <None Include="src\irc\doc\ircglobal_8h_source.html" />
+    <None Include="src\irc\doc\ircsession_8h_source.html" />
+    <None Include="src\irc\doc\ircsession__p_8h_source.html" />
+    <None Include="src\irc\doc\ircutil_8h_source.html" />
+    <None Include="src\irc\doc\irc_8h_source.html" />
+    <None Include="src\irc\doc\namespaceIrc.html" />
+    <None Include="src\irc\doc\namespacemembers.html" />
+    <None Include="src\irc\doc\namespacemembers_func.html" />
+    <None Include="src\irc\doc\namespaces.html" />
+    <None Include="src\irc\doc\pages.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\index.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\CoreMudlet.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\DB.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\DebugTools.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\GUIUtils.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\Logging.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\LuaGlobal.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\Other.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\StringUtils.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\TableUtils.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\Geyser.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserColor.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserContainer.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserGauge.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserGeyser.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserLabel.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserMiniConsole.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserReposition.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserSetConstraints.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserTests.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserUtil.html" />
+    <None Include="src\mudlet-lua\mudlet-lua-doc\files\geyser\GeyserWindow.html" />
+  </ItemGroup>
+</Project>
